@@ -91,6 +91,7 @@ function Pagination(props) {
                         </li>
                         <li className="page-item">
                             <button className="page-link" aria-label="Next" onClick={toLastPage}>
+    //when the main page has no shift and click ">>", there is error
                                 <span aria-hidden="true">»</span>
                             </button>
                         </li>
